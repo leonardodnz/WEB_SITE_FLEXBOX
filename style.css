@@ -1,0 +1,126 @@
+body{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #6C6C6C;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+/*---------------------------------HEADER---------------------------------*/
+.header{
+  display: flex;
+  justify-content: space-between; /*horizontal axis*/
+  align-items: center; /*vertial axis*/
+  /*height: 80px;*/
+  background-color: #F5F5F5;
+  padding: 10px 32px 0px 32px;
+}
+
+.header_tabs{
+  display: flex;
+  align-content: center;  /*vertical*/
+  align-items: center;
+  gap: 20px;
+}
+.header_tabs p{
+  padding: 4px;
+  align-content: center; 
+}
+.header_tabs #h_img_search{
+  padding: 4px;
+  height: 24px;
+  align-content: center; 
+}
+.header_tabs #h_img{
+  height: 40px;
+  align-content: center; 
+}
+
+#hovering:hover{
+  color: rgb(212, 105, 81);
+  text-decoration-line: underline;
+}
+/*---------------------------------HEADER---------------------------------*/
+
+
+
+/*---------------------------------ABOUT---------------------------------*/
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  /*height: 240px;*/
+  background-color: #F5F5F5;
+  padding: 24px 32px 24px 32px;
+  font-size: 14px;
+}
+.a_main{
+  width: 592px;
+  height: 176px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.a_main p{
+  margin: 0;
+}
+#user_name{
+  font-size: 32px;
+  font-weight: 700;
+  color: #313131;
+  margin: 0;
+}
+
+.a_info{
+  display: flex;
+  flex-direction: column; /*block directions arrangement*/
+  width: 280px;
+  /*height: 104px;*/
+  justify-content: center;
+  gap: 10px;
+}
+.line_1,.line_2,.line_3{
+  display: flex;
+  gap: 10px;
+  height: 24px;
+  align-items: center;
+}
+/*---------------------------------ABOUT---------------------------------*/
+
+
+
+/*---------------------------------PHOTOS---------------------------------*/
+.gallery{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /*break line of the block*/
+  gap: 24px;
+  padding: 24px 32px 24px 32px;
+}
+#img_gallery{
+  height: 280px;
+  width: 280px;
+}
+/*---------------------------------PHOTOS---------------------------------*/
+
+
+
+/*---------------------------------FOOTER---------------------------------*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  /*height: 72px;*/
+  padding: 0px 32px 24px 32px;
+}
+.left_info{
+  display: flex;
+  align-content: center;
+  gap: 20px;
+}
+/*---------------------------------FOOTER---------------------------------*/
